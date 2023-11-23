@@ -1,0 +1,114 @@
+Exercice 2.1 comparaison de nombre
+
+VARIABLES
+	age est un entier
+Debut du programme
+	Ecrire "Quel est votre age ?"
+	Lire age
+	Debut Si
+		Si age >= 18
+		Alors
+			Ecrire "Vous êtes majeur"
+		Sinon Si age < 0 
+			Alors
+			Ecrire "Vous n'êtes pas encore né"
+		Sinon
+			Ecrire "Vous êtes mineur"
+	Fin Si
+Fin du programme
+
+Exercice 2.2 tri de nombre
+
+VARIABLES
+	a est un entier
+	b est un entier
+	inferieurEgale est une chaine de caractère
+Debut du programme
+	inferieurEgale <-- " <= "
+	Ecrire "Saisir le nombre a"
+	Lire a
+	Ecrire "Saisir le nombre b"
+	lire b
+	Debut Si
+		Si a <= b
+		Alors
+			Ecrire a, inferieurEgale, b
+		Sinon
+			Ecrire b, inferieurEgale, a
+	Fin Si
+Fin du programme	
+
+Exercice 2.3 tri de nombre ++ 
+
+VARIABLES
+	a est un reel
+	b est un reel
+	c est un reel
+Debut du programme
+	Ecrire "Saisir le nombre a"
+	Lire a
+	Ecrire "Saisir le nombre b"
+	Lire b
+	Ecrire "saisir le nombre c"
+	Lire c
+	Debut Si
+		Si a<=b ET a<=c Alors
+			Debut Si
+				Si b<=c Alors
+					Ecrire a <= b <= c
+					Sinon
+					Ecrire a <= c <= b
+			Fin Si
+		Sinon Si b <= a ET b <= c Alors
+			Debut Si 
+				Si a <= c Alors
+					Ecrire b <= a <= c
+					Sinon
+					Ecrire b <= c <= a
+			Fin Si
+		Sinon
+			Debut Si
+				Si a<= b Alors
+				Ecrire c <= a <= b
+				Sinon c <= b <= a
+			Fin Si
+		Fin Si
+Fin du programme
+
+Exercice 2.4 Annee bisextille
+
+Variable
+	annee est un entier
+Debut du programme
+	Ecrire "saisir une année"
+	Lire annee
+	Debut Si
+		Si annee mod 4 = 0 ET annee mod 100 != 0 OU annee mod 400 = 0 
+		Alors
+			Ecrire "l'annee ",annee," est bisextille"
+		Sinon
+			Ecrire "l'annee ",annee," n'est pas bisextille"
+	Fin Si
+Fin du programme
+
+Exercice 2.5 Diviseur d'un nombre
+
+Varibles 
+	nombre est un entier
+	i est un entier
+Debut du programme
+	Ecrire "Saisir un nombre entier"
+	lire nombre
+	Debut boucle Pour
+		Pour i allant de 2 à nombre-1
+			Debut Si
+				Si nombre mod i = 0
+				Alors
+					Ecrire nombre, " est divisible par  : ",i
+			Fin Si
+		i++
+	Fin boucle Pour
+Fin du Programme
+	
+		
+	

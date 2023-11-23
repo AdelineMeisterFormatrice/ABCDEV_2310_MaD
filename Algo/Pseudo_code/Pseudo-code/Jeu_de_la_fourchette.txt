@@ -1,0 +1,35 @@
+PSEUDO CODE Ex 3-1
+
+VARIABLES
+	nombre est un entier
+	nbJoueur est un entier
+	max est un entier
+	min est un entier
+	essai est un entier
+	win est un boolean
+
+DEBUT DU PROGRAMME
+	nombre <-- est genere aleatoirement
+	essai = 0
+	win = false
+	min = 0
+	max = 100
+Debut boucle
+Faire
+	Ecrire "Saisir un nombre entre ",min," et ",max
+	Lire nbJoueur
+	Debut si
+		si nbJoueur est superieur à nombre
+		Alors 
+		      Ecrire "C'est moins !!!"
+		      max <-- nbJoueur 
+		sinon si nbJoueur est inferieur à nombre
+		      Ecrire"C'est plus !!!"
+		      min <-- nbJoueur 
+		sinon
+		      win <-- vrai
+	Fin Si
+	essai <-- essai+1
+Tant que win = faux
+	Ecrire "Bravo, vous avez trouve en", essai,  " essais "
+Fin du programme

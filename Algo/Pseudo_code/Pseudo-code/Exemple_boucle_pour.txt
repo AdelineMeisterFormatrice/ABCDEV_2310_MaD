@@ -1,0 +1,13 @@
+Variables
+	compteur est un entier
+	i est un entier
+Debut du programme
+compteur <-- 0
+Debut Pour
+	Pour i allant de 1 à 10
+	compteur += 1
+	Ecrire "Valeur du compteur : ",compteur
+	i += 1
+Fin Pour
+Fin du programme
+		

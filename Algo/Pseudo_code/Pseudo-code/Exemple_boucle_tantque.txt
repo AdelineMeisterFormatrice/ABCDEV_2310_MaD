@@ -1,0 +1,11 @@
+Variables 
+	compteur est un entier
+Debut du programme
+	compteur <-- 0
+	Debut Tant Que
+		Tant Que compteur <= 10
+		Faire
+			compteur + 1
+			Ecrire "La valeur du compteur : ",compteur
+	Fin Tant Que
+Fin du programme

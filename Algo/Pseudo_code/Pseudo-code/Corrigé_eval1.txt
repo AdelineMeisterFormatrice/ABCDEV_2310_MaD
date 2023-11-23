@@ -1,0 +1,38 @@
+Exercice 1
+
+VARIABLES
+	longueur est un entier
+	largeur est un entier
+	perimetre est un entier
+	aire est un entier
+Debut du programme
+	Ecrire "Saisir la longueur"
+	Lire longueur
+	Ecrire "Saisir la largeur"
+	Lire largeur
+	perimetre <-- (longueur + largeur)*2
+	aire <-- longueur*largeur
+	Ecrire "Perimetre du rectangle : ",perimetre
+	Ecrire "l'aire du rectangle : ",aire
+Fin du programme
+
+Exercice 2 
+
+VARIABLES
+	nom est une chaine de caractère
+	prenom est une chaine de caractère
+	departement est un entier
+	mail1 est une chaine de caractère
+	mail2 est une chaine de caractère
+Debut du programme
+	Ecrire "Saisir votre nom"
+	Lire nom
+	Ecrire "Saisir votre prenom"
+	Lire prenom
+	Ecrire "saisir votre departement"
+	lire departement
+	mail1 <-- prenom,".",nom,".",departement,"@arfp.asso.fr
+	mail2 <-- nom,departement,prenom,"@arfp.asso.fr
+	Ecrire "Mail 1 : ",mail1
+	Ecrire "Mail 2 : ",mail2
+Fin du programme

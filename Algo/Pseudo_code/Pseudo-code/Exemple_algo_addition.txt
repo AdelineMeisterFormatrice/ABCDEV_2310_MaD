@@ -1,0 +1,12 @@
+Variables
+    nombre1 est un entier
+    nombre2 est un entier
+    resultat est un entier
+Debut du programme
+    Ecrire "Saisir le 1er nombre"
+    Lire nombre1
+    Ecrire "Saisir le 2eme nombre"
+    Lire nombre2
+    resultat <-- nombre1 + nombre2
+    Ecrire "Le resultat est ",resultat
+Fin du programme 
