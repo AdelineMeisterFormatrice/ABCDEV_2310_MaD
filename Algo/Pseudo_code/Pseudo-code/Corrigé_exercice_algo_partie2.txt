@@ -110,5 +110,65 @@ Debut du programme
 	Fin boucle Pour
 Fin du Programme
 	
-		
+Exercice 2.6 Nombre premier
+
+Variables
+	nombre est un entier
+	i est un entier
+	compteur est un entier
+Debut du programme
+	Ecrire "Saisir un nombre entier"
+	lire nombre
+	compteur <-- 0
+	Debut boucle pour
+	Pour i allant de 2 a nombre-1
+		Debut Si
+			Si nombre mod i = 0
+			Alors
+				Compteur <-- compteur+1
+		Fin si
+	Fin pour
+	Debut si
+		Si compteur = 0
+		Alors
+			Ecrire "Le nombre ",nombre," est premier"
+		Sinon
+			Ecrire "le nombre ",nombre," n'est pas premier"
+	Fin si
+Fin du programme
+
+Exercice 2.7 conversion km miles
+
+Variable
+	kilometre est reel
+	miles est un reel
+	fermeture_prog est un booleen
+	quit est une chaine de caractere
+	saisieUtilisataire est une chaine de caractere
+
+Debut du programme
+	quit <-- "q"
+	Debut tant que
+	Tant que fermeture_prog est faux
+	faire
+		Ecrire "saisir le nombre de kilometre ou tapez q pour quitter"
+		lire saisiUtilisateur
+		debut si
+			Si saisiUtilisateur est egale à quit
+			Alors
+				fermeture_prog est vrai
+			Sinon
+				kilometre <-- convertion en reel de saisieUtilisateur
+				Debut si
+					Si kilometre est < 0.01 OU kilometre > 1 000000
+					Alors
+						Ecrire "saisie invalide, saisissez une valeur comprise entre 0.01 et 1000000"
+						Lire saisie utilisateur
+					Sinon
+						miles <-- kilometre/1.609
+						Ecrire kilometre, " kilometre est egale à ",miles," miles"
+		Fin si
+	Fin tant que
+Fin du programme
+			
 	
