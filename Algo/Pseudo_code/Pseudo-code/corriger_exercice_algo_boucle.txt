@@ -59,7 +59,6 @@ Variables
 	nombre est un entier
 	i est un entier
 Debut du programme
-	i <-- 1
 	Ecrire "Saisir un nombre"
 	Lire nombre
 Debut pour
