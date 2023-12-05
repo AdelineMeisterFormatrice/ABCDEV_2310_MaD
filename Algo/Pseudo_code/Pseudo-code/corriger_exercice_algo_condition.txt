@@ -333,7 +333,7 @@ Debut Si
 	Alors point <-- point - 1
 Fin Si
 Debut Si
-	Si point = 1
+	Si point = -1
 	Alors situation <-- "Bleu"
 	Sinon Si point = 0
 	Alors situation <-- "Vert"
