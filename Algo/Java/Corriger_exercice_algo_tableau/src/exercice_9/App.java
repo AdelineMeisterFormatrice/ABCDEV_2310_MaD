@@ -78,6 +78,7 @@ Fin du programme
 			}
 		}
 		
+		System.out.println("la moyenne de la classe est : "+moyenne);
 		System.out.println(nbSupMoyenne + " eleves depassent la moyenne de la classe");
 		
 		sc.close();
