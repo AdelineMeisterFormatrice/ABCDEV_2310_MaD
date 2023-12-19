@@ -1,0 +1,46 @@
+EXERCICE 1 inversion 2 valeurs
+
+PROCEDURE
+	inversion(entier a, entier b)
+	tmp est un entier
+	tmp <-- a
+	a <-- b
+	b <-- tmp
+	ecrire "Aprés inversion : nombre a = ",a," nombre b = ",b
+FIN PROCEDURE
+VARIABLES
+	nombre1 est un entier
+	nombre2 est un entier
+DEBUT DU PROGRAMME
+	Ecrire "saisir le 1er nombre"
+	lire nombre1
+	Ecrire "saisir le 2eme nombre"
+	lire nombre2
+	ecrire "Avant inversion : nombre a = ",nombre1," nombre b = ",nombre2
+	inversion(nombre1,nombre2)
+FIN DU PROGRAMME
+
+Exercice 2 calcul du perimetre et aire d'un triangle
+
+PROCEDURE
+	perimetreAire(entier a,entier b, entier c)
+		entier perimetre, aire
+		perimetre <-- a + b + c
+		aire <-- ((p/2-a)(p/2-b)(p/2-c))^1/2
+		Ecrire "Le perimetre est ",perimetre," l'aire est ",aire
+FIN PROCEDURE
+VARIABLES
+	cote1, cote2, cote3 sont des entiers
+DEBUT DU PROGRAMME
+	Ecrire "Saisir le coté 1"
+	Lire cote1
+	Ecrire "Saisir le coté 2"
+	Lire cote2
+	Ecrire "Saisir le coté 3"
+	Lire cote3
+	perimetreAire(cote1, cote2, cote3)
+FIN PROGRAMME
+	
+
+
+	
