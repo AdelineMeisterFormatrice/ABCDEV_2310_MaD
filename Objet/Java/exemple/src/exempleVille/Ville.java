@@ -6,6 +6,8 @@ public class Ville {
 	private String nomPays;
 	private int nbHabitants;
 	private char categorie;
+	public static int nbInstances = 0;
+	private static int nbInstancesBis = 0;
 	
 	public Ville()
 	{
@@ -14,6 +16,8 @@ public class Ville {
 		nomPays = "inconnu";
 		nbHabitants = 0;
 		this.setCategorie();
+		nbInstances++;
+		nbInstancesBis++;
 	}
 	
 	public Ville(String _nomVille, String _nomPays, int _nbHabitants)
@@ -23,6 +27,8 @@ public class Ville {
 		nomPays = _nomPays;
 		nbHabitants = _nbHabitants;
 		this.setCategorie();
+		nbInstances++;
+		nbInstancesBis++;
 	}
 	
 	// ********** Getters***********
@@ -53,6 +59,10 @@ public class Ville {
 		return categorie;
 	}
 	
+	public static int getNbInstances()
+	{
+		return nbInstancesBis;
+	}
 	// ********** Setters **********
 	
 	// definir le nom de la ville
@@ -99,6 +109,22 @@ public class Ville {
 					+this.nbHabitants
 					+" habitant(s) => elle est donc de categorie "
 					+this.categorie;
+	}
+	
+	public String comparerVille(Ville uneVille)
+	{
+		String str;
+		
+		if(uneVille.getNbHabitants() > this.nbHabitants)
+		{
+			str = uneVille.getNomVille() + " est plus peuplée que "+this.nomVille;
+		}
+		else
+		{
+			str = this.nomVille + " est plus peuplée que "+uneVille.getNomVille();
+		}
+		
+		return str;
 	}
 
 }
