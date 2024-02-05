@@ -18,7 +18,7 @@ public class App {
 		System.out.println(Arrays.toString(Month.getMoisHiver()));
 		Month.FEVRIER.setNbJour(2023);
 		System.out.println(Arrays.toString(Month.getMoisHiver()));
-		
+		System.out.println(Month.getMoisPrintemps());
 	}
 
 }
