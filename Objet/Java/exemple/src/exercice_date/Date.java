@@ -74,6 +74,15 @@ public class Date {
 		}
 	}
 	
-	
-
+	public String afficherComparaison(Date uneDate)
+	{
+		if(this.comparerDate(uneDate))
+		{
+			return "La date : "+Date.afficherDate(this)+" est avant la date " +Date.afficherDate(uneDate);
+		}
+		else
+		{
+			return "La date : "+Date.afficherDate(uneDate)+" est avant la date : " +Date.afficherDate(this);
+		}
+	}
 }
