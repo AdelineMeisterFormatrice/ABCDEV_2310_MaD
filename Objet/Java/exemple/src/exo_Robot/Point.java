@@ -26,12 +26,12 @@ public class Point {
 	
 	public void setAbcsisse(int _abcsisse)
 	{
-		this.abcsisse = _abcsisse;
+		this.abcsisse += _abcsisse;
 	}
 	
 	public void setOrdonnee( int _ordonnee)
 	{
-		this.ordonnee = _ordonnee;
+		this.ordonnee += _ordonnee;
 	}
 
 }

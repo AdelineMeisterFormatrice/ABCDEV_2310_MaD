@@ -327,4 +327,9 @@ public class Robot {
 			return ("Le robot est eteint");
 		}
 	}
+	
+	public boolean getestAllumer()
+	{
+		return this.estAllumer;
+	}
 }
