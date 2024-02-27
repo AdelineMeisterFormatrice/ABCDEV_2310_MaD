@@ -14,12 +14,14 @@ public class Tour {
 	public static void unTour()
 	{
 		
-		while(Poisson.getNbPoissons() > 0)
+		while(Aquarium.getNbPoissons() > 0)
 		{
 			
 			unAquarium.manger();
 			unAquarium.cycleDeVieAlgue();
 			unAquarium.cycleDeViePoisson();
+			unAquarium.reproductionPoisson();
+			unAquarium.reproductionAlgues();
 			System.out.println("Tour n°" +compteTour+"\n\t"+ unAquarium.afficherEtatAquarium());
 			unAquarium.ecritureFichier();
 			compteTour++;

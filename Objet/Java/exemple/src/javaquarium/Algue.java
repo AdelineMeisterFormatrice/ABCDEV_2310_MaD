@@ -13,6 +13,13 @@ public class Algue {
 		compteAlgue++;
 	}
 	
+	public Algue(int _pointDeVie)
+	{
+		this.estVivante = true;
+		this.pointDeVie = _pointDeVie;
+		compteAlgue++;
+	}
+	
 	public boolean getVivante()
 	{
 		return this.estVivante;
@@ -31,6 +38,11 @@ public class Algue {
 	public void setPointDeVieGagner(int _pointDeVieGagner)
 	{
 		this.pointDeVie += _pointDeVieGagner;
+	}
+	
+	public void setpointDeVie(int _pointDeVie)
+	{
+		this.pointDeVie = _pointDeVie;
 	}
 	
 	public void setVivante(boolean _estVivante)

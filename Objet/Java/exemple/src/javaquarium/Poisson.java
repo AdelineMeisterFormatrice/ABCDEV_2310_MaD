@@ -7,24 +7,24 @@ enum Race {
 public class Poisson {
 	
 	private String nom;
-	private String sexe;
 	private Race race;
 	private boolean estCarnivore;
 	private boolean estVivant;
-	private static int nbPoissons = 0;
+	private boolean aFaim;
+	private int genre;
 	private int pointDeVie;
 	private int nbTourPoisson;
 	
-	public Poisson(String _nom, String _sexe, int idrace)
+	public Poisson(String _nom, int _sexe, int idrace)
 	{
 		this.nom = _nom;
-		this.sexe = _sexe;
+		this.genre = _sexe;
 		this.race = this.setRace(idrace);
 		this.estCarnivore = this.setCarnivore();
 		this.estVivant = true;
 		this.pointDeVie = 10;
+		this.aFaim = false;
 		this.nbTourPoisson = 0;
-		nbPoissons++;
 	}
 	
 	public String getNom()
@@ -32,9 +32,26 @@ public class Poisson {
 		return this.nom;
 	}
 	
-	public String getSexe()
+	public int getSexe()
 	{
-		return this.sexe;
+		return this.genre;
+	}
+	
+	public boolean getAFaim()
+	{
+		return this.aFaim;
+	}
+	
+	public void setAFaim()
+	{
+		if(this.pointDeVie > 0 && this.pointDeVie <= 5)
+		{
+			 this.aFaim = true;
+		}
+		else
+		{
+			 this.aFaim = false;
+		}
 	}
 	
 	
@@ -58,6 +75,27 @@ public class Poisson {
 	public Race getRace()
 	{
 		return this.race;
+	}
+	
+	public int getIdrace()
+	{
+		switch(this.race)
+		{
+		case Merou:
+			return 1;
+		case Thon:
+			return 2;
+		case PoissonClown:
+			return 3;
+		case Sole:
+			return 4;
+		case Bar:
+			return 5;
+		case Carpe:
+			return 6;
+			default:
+				return 0;
+		}
 	}
 	
 	public  Race setRace(int idrace)
@@ -96,9 +134,9 @@ public class Poisson {
 		this.nom = _nom;
 	}
 	
-	public void setSexe(String _sexe)
+	public void setSexe(int _sexe)
 	{
-		this.sexe = _sexe;
+		this.genre = _sexe;
 	}
 	
 	public void setPointDeViePerdu(int _pointDeViePerdu)
@@ -111,16 +149,7 @@ public class Poisson {
 		this.pointDeVie += _pointDeVieGagner;
 	}
 	
-	public static int getNbPoissons()
-	{
-		return nbPoissons;
-	}
 	
-	
-	public static void setNbPoisson(int nbPoisson)
-	{
-		nbPoissons -= nbPoisson;
-	}
 	
 	
 	public boolean getVivant()
