@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <entrees>
+        <entree id="1">
+            <nom>Salade ceasar</nom>
+            <prix devise="Euros">12</prix>
+            <description>Salade verte, parmesan,crouton,sauce ceasar</description>
+        </entree>
+        <entree id="2">
+            <nom>Salade de thon</nom>
+            <prix devise="Euros">7</prix>
+            <description>Salade verte, thon, Oeuf dur, tomate</description>
+        </entree>
+    </entrees>
+    <plats>
+        <plat id="1">
+            <nom>Poulet rotie</nom>
+            <prix devise="Euros">22</prix>
+            <description>Poulet rotie accompagné de frites et de salade verte</description>
+        </plat>
+        <plat id="2">
+            <nom>Spaguetti carbonara</nom>
+            <prix devise="Euros">18</prix>
+            <description>Spaguetti al dente, sauce carbonara</description>
+        </plat>
+        <plat id="3">
+            <nom>Tournedos Rossini</nom>
+            <prix devise="Euros">28</prix>
+            <description>Tournedos de boeuf, foie gras poilée, chutney de figues, spaetzle</description>
+        </plat>
+    </plats>
+    <desserts>
+        <dessert id="1">
+            <nom>Tiramisu</nom>
+            <prix devise="Euros">8</prix>
+            <description>Biscuit à la cuillére imbibé de café, créme aux mascarpone</description>
+        </dessert>
+        <dessert id="2">
+            <nom>Tartes aux poires et chocolat</nom>
+            <prix devise="Euros">5</prix>
+            <description>Tarte aux poires williams avec créme d'amandes au chocolat noir</description>
+        </dessert>
+    </desserts>
+</menu>
+
