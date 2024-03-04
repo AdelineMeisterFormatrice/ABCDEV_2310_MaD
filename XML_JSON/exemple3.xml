@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<offres livre="Games of thrones tome 1">
+    <offre vendeur="Fnac" devise="Euros">27.99</offre>
+    <offre vendeur="Amazon" devise="Dollar">28.95</offre>
+    <offre vendeur="CDiscount" devise="Euros">28.99</offre>
+</offres>

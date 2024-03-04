@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personnes>
+    <personne>
+        <prenom>Albert</prenom>
+        <nom>Einstein</nom>
+    </personne>
+    <personne>
+        <prenom>Marie</prenom>
+        <nom>Curie</nom>
+    </personne>
+</personnes>s

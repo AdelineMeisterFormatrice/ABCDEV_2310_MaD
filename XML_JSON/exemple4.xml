@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client id="1">
+        <prenom>Albert</prenom>
+        <nom>Einstein</nom>
+        <commandes>
+            <commande numero="42" montant="147.23"/>
+        </commandes>
+    </client>
+    <client id="2">
+        <prenom>Marie</prenom>
+        <nom>Curie</nom>
+        <commandes>
+            <commande numero="67" montant="211.05"/>
+            <commande numero="73" montant="18.99"/>
+        </commandes>
+    </client>
+    <client id="3">
+        <prenom>Jeanne</prenom>
+        <nom>Martin</nom>
+        <commandes/>
+    </client>
+</clients>
