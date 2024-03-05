@@ -1,0 +1,20 @@
+menu { display: block; }
+
+entrees, plats, desserts { display:block;
+    padding:10px;
+    font-weight:bold;
+    color:rgb(7, 7, 7); }
+
+entree[id="1"] nom,plat[id="1"] nom,dessert[id="1"] nom {display: block;}
+
+entree[id="1"] prix,plat[id="1"] prix,dessert[id="1"] prix {display: block; }
+
+entree[id="1"] description,plat[id="1"] description,dessert[id="1"] description {display: block; }
+
+entree[id="2"] nom,plat[id="2"] nom ,plat[id="3"] nom ,dessert[id="2"] nom {display: block; }
+
+entree[id="2"] prix,plat[id="2"] prix,plat[id="3"] prix ,dessert[id="2"] prix {display: block; }
+
+entree[id="2"] description,plat[id="2"] description,plat[id="3"] description ,dessert[id="3"] description {display: block; }
+
+

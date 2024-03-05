@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etudiants>
+    <etudiant id="1">
+        <nom>Bond</nom>
+        <prenom>James</prenom>
+        <date_naissance>08/05/1978</date_naissance>
+        <mail>JBond@gmail.com</mail>
+        <formation intitule="ABCDEV" dureeEnMois="5" date_demarage="01/09/2024" date_fin="31/01/2025"/>
+    </etudiant>
+    <etudiant id="2">
+        <nom>Auchon</nom>
+        <prenom>Paul</prenom>
+        <date_naissance>25/11/1982</date_naissance>
+        <mail>PAuchon@outlook.fr</mail>
+        <formation intitule="ABCDEV" dureeEnMois="5" date_demarage="01/09/2024" date_fin="31/01/2025"/>
+    </etudiant>
+    <etudiant id="3">
+        <nom>Ouzi</nom>
+        <prenom>Jacque</prenom>
+        <date_naissance>12/06/1985</date_naissance>
+        <mail>JOuzi@gmail.com</mail>
+        <formation intitule="ABCDEV" dureeEnMois="5" date_demarage="01/09/2024" date_fin="31/01/2025"/>
+    </etudiant>
+</etudiants>
+            
