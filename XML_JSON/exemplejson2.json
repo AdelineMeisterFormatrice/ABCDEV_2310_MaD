@@ -1,0 +1,36 @@
+{
+    "clients" : [
+        {
+            "id" : 1,
+            "nom" : "Einstein",
+            "prenom" : "Albert",
+            "commande" : [
+                {
+                    "numero" : 42,
+                    "montant" : 147.23
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "nom" : "Curie",
+            "prenom" : "marie",
+            "commande" : [
+                {
+                    "numero" : 67,
+                    "montant" : 211.05
+                },
+                {
+                    "numero" : 73,
+                    "montant" : 18.99
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "nom" : "Martin",
+            "prenom" : "jeanne",
+            "commande" : null
+        }
+    ]
+}

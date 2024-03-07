@@ -1,0 +1,29 @@
+{    
+    "nom_equipe" : "Justice league",
+    "ville_origine":"Metropolis",
+    "annee_de_creation": 2010,
+    "base_secrete" : "hall de justice",
+    "active": true,
+    "membre_equipe": [
+        {
+            "nom" : "Batman",
+            "age" : 35,
+            "identite_secrete" : "Bruce wayne",
+            "pouvoirs" : ["Gadjet","art martiaux","millionnaire"]
+        },
+        {
+            "nom" : "Wonder woman",
+            "age" : 25,
+            "identite_secrete" : "Diana prince",
+            "pouvoirs" : ["lasso de la verité", "super force", "guerriére amazone"]
+        },
+        {
+            "nom" : "Superman",
+            "age" : 37,
+            "identite_secrete" : "Clak Kent",
+            "pouvoirs" : ["super force", "laser", "souffle glacant"]
+        }
+    ]
+}  
+   
+ 

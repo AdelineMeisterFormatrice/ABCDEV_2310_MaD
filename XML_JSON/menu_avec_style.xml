@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css" ?>
 <menu>
     <entrees>
+    <h1>Nos entrèes</h1>
         <entree id="1">
             <nom>Salade ceasar</nom>
             <prix devise="Euros">12</prix>
             <description>Salade verte, parmesan,crouton,sauce ceasar</description>
         </entree>
+        <h2>------------------------------------------------------</h2>
         <entree id="2">
             <nom>Salade de thon</nom>
             <prix devise="Euros">7</prix>
@@ -13,16 +16,19 @@
         </entree>
     </entrees>
     <plats>
+    <h1>Nos plats</h1>
         <plat id="1">
             <nom>Poulet rotie</nom>
             <prix devise="Euros">22</prix>
             <description>Poulet rotie accompagné de frites et de salade verte</description>
         </plat>
+         <h2>------------------------------------------------------</h2>
         <plat id="2">
             <nom>Spaguetti carbonara</nom>
             <prix devise="Euros">18</prix>
             <description>Spaguetti al dente, sauce carbonara</description>
         </plat>
+         <h2>------------------------------------------------------</h2>
         <plat id="3">
             <nom>Tournedos Rossini</nom>
             <prix devise="Euros">28</prix>
@@ -30,11 +36,13 @@
         </plat>
     </plats>
     <desserts>
+    <h1>Nos desserts</h1>
         <dessert id="1">
             <nom>Tiramisu</nom>
             <prix devise="Euros">8</prix>
             <description>Biscuit à la cuillére imbibé de café, créme aux mascarpone</description>
         </dessert>
+         <h2>------------------------------------------------------</h2>
         <dessert id="2">
             <nom>Tartes aux poires et chocolat</nom>
             <prix devise="Euros">5</prix>
